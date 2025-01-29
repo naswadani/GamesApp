@@ -16,28 +16,28 @@ target 'GamesApp' do
 end
 
 target 'Common' do
-  project '../GamesApp/Modules/Common/Common.xcodeproj'
+  project 'Modules/Common/Common.xcodeproj'
 end
 
 target 'Core' do
-  project '../GamesApp/Modules/Core/Core'
+  project 'Modules/Core/Core'
 	pod 'Swinject'
 	pod 'Alamofire'
 end
 
 target 'GameDetail' do
-  project '../GamesApp/Modules/GameDetail/GameDetail'
+  project 'Modules/GameDetail/GameDetail'
 	pod 'Swinject'
 	pod 'Alamofire'
 end
 
 target 'GameFavorites' do
-  project '../GamesApp/Modules/GameFavorites/GameFavorites'
+  project 'Modules/GameFavorites/GameFavorites'
 	pod 'Swinject'
 end
 
 target 'Homepage' do
-  project '../GamesApp/Modules/Homepage/Homepage'
+  project 'Modules/Homepage/Homepage'
 	pod 'Alamofire'
 	pod 'Swinject'
 end
