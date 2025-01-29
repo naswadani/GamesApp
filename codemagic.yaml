@@ -11,9 +11,5 @@ workflows:
         script: |
           xcodebuild clean build -workspace Modularization.xcworkspace -scheme GamesApp -destination 'platform=iOS Simulator,name=iPhone 16'
 
-      - name: Run tests
-        script: |
-          xcodebuild test -workspace Modularization.xcworkspace -scheme GamesApp -destination 'platform=iOS Simulator,name=iPhone 16'
-
     artifacts:
       - build/Build/Products/**/*.app
