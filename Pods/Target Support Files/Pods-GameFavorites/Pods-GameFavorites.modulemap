@@ -1,0 +1,6 @@
+framework module Pods_GameFavorites {
+  umbrella header "Pods-GameFavorites-umbrella.h"
+
+  export *
+  module * { export * }
+}

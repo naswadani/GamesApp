@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.10.2)
+  - Swinject (2.9.1)
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Swinject
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Swinject
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Swinject: a827d508c6270da03ec74e558e728917a888fa9b
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: f6d8d67fce5c3e03ee98474f8db7a6044f3a00ce
+
+COCOAPODS: 1.16.2
