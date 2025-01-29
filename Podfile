@@ -16,7 +16,7 @@ target 'GamesApp' do
 end
 
 target 'Common' do
-  project '/Users/naswakhansa/Desktop/Games Dicoding Modular/GamesApp/Modules/Common/Common.xcodeproj'
+  project '../GamesApp/Modules/Common/Common.xcodeproj'
 end
 
 target 'Core' do
