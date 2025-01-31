@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Core
-import Common
+import CommonPodSpec
 import GameDetail
 
 public struct FavoriteGameView: View {

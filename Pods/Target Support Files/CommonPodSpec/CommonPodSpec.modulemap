@@ -1,0 +1,6 @@
+framework module CommonPodSpec {
+  umbrella header "CommonPodSpec-umbrella.h"
+
+  export *
+  module * { export * }
+}

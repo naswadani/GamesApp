@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D40810B62D44ACA60035B543 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B12D44ACA60035B543 /* Common.framework */; };
-		D40810B72D44ACA60035B543 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B12D44ACA60035B543 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D40810B82D44ACA60035B543 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B22D44ACA60035B543 /* Core.framework */; };
 		D40810B92D44ACA60035B543 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B22D44ACA60035B543 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D40810BA2D44ACA60035B543 /* GameDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B32D44ACA60035B543 /* GameDetail.framework */; };
@@ -27,7 +25,6 @@
 			files = (
 				D40810BF2D44ACA60035B543 /* Homepage.framework in Embed Frameworks */,
 				D40810BB2D44ACA60035B543 /* GameDetail.framework in Embed Frameworks */,
-				D40810B72D44ACA60035B543 /* Common.framework in Embed Frameworks */,
 				D40810B92D44ACA60035B543 /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -64,7 +61,6 @@
 				E47A22E9610E0FC62304324A /* Pods_GamesApp.framework in Frameworks */,
 				D40810BA2D44ACA60035B543 /* GameDetail.framework in Frameworks */,
 				D40810B82D44ACA60035B543 /* Core.framework in Frameworks */,
-				D40810B62D44ACA60035B543 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

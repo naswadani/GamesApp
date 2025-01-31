@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		34BF801F714BA07595F25F95 /* Pods_GameDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8B0B29F6B29DE2D882C92D /* Pods_GameDetail.framework */; };
-		D4760E962D46C86300E0A3DE /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4760E942D46C86300E0A3DE /* Common.framework */; };
 		D4760E982D46C86300E0A3DE /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4760E952D46C86300E0A3DE /* Core.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 			files = (
 				34BF801F714BA07595F25F95 /* Pods_GameDetail.framework in Frameworks */,
 				D4760E982D46C86300E0A3DE /* Core.framework in Frameworks */,
-				D4760E962D46C86300E0A3DE /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

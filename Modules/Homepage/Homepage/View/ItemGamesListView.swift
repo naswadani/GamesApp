@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Common
+import CommonPodSpec
 import Core
 
 public struct ItemGamesListView: View {

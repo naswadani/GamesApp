@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Common
+import CommonPodSpec
 
 public struct GameDetailView: View {
     @StateObject var viewModel: GameDetailViewModel

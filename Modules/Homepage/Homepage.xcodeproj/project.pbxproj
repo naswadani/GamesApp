@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6881A0E9815CB45E057A6387 /* Pods_Homepage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3E56EAA2872F5827ECFEC7 /* Pods_Homepage.framework */; };
-		D40811A12D44B9D50035B543 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D408119F2D44B9D50035B543 /* Common.framework */; };
 		D40812152D44BD430035B543 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40812142D44BD430035B543 /* Core.framework */; };
 		D460E2302D4CF10E00990189 /* GameDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D460E22F2D4CF10E00990189 /* GameDetail.framework */; };
 		D460E2312D4CF10E00990189 /* GameDetail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D460E22F2D4CF10E00990189 /* GameDetail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -78,7 +77,6 @@
 				6881A0E9815CB45E057A6387 /* Pods_Homepage.framework in Frameworks */,
 				D460E2302D4CF10E00990189 /* GameDetail.framework in Frameworks */,
 				D40812152D44BD430035B543 /* Core.framework in Frameworks */,
-				D40811A12D44B9D50035B543 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

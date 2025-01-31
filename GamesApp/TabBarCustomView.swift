@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Core
-import Common
+import CommonPodSpec
 import Homepage
 
 struct TabBarCustomView: View {
