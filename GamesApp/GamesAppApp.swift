@@ -8,7 +8,6 @@
 import SwiftUI
 import GameDetail
 import Homepage
-import GameFavorites
 import Core
 import CoreData
 
@@ -30,7 +29,7 @@ struct GamesAppApp: App {
     var body: some Scene {
         WindowGroup {
             TabBarCustomView()
-                .accentColor(Color("AccentColor", bundle: Bundle(identifier: "project.naswa.Common")))
+                .accentColor(.black)
         }
     }
 }

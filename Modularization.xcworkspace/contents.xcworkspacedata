@@ -17,9 +17,6 @@
       location = "group:Modules/GameDetail/GameDetail.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Modules/GameFavorites/GameFavorites.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Modules/Homepage/Homepage.xcodeproj">
    </FileRef>
 </Workspace>

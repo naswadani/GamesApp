@@ -8,7 +8,6 @@
 import SwiftUI
 import Core
 import Common
-import GameFavorites
 import Homepage
 
 struct TabBarCustomView: View {
@@ -25,7 +24,7 @@ struct TabBarCustomView: View {
     }
     
     private var aboutButton: some View {
-        NavigationLink(destination: AboutView()) {
+        NavigationLink(destination: AboutView(image: "naswa")) {
             Image(systemName: "person.crop.circle")
                 .font(.system(size: 20))
         }

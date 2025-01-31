@@ -13,8 +13,6 @@
 		D40810B92D44ACA60035B543 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B22D44ACA60035B543 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D40810BA2D44ACA60035B543 /* GameDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B32D44ACA60035B543 /* GameDetail.framework */; };
 		D40810BB2D44ACA60035B543 /* GameDetail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B32D44ACA60035B543 /* GameDetail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D40810BC2D44ACA60035B543 /* GameFavorites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B42D44ACA60035B543 /* GameFavorites.framework */; };
-		D40810BD2D44ACA60035B543 /* GameFavorites.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B42D44ACA60035B543 /* GameFavorites.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D40810BE2D44ACA60035B543 /* Homepage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B52D44ACA60035B543 /* Homepage.framework */; };
 		D40810BF2D44ACA60035B543 /* Homepage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40810B52D44ACA60035B543 /* Homepage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E47A22E9610E0FC62304324A /* Pods_GamesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D9767FB651308FA1F45D14 /* Pods_GamesApp.framework */; };
@@ -27,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D40810BD2D44ACA60035B543 /* GameFavorites.framework in Embed Frameworks */,
 				D40810BF2D44ACA60035B543 /* Homepage.framework in Embed Frameworks */,
 				D40810BB2D44ACA60035B543 /* GameDetail.framework in Embed Frameworks */,
 				D40810B72D44ACA60035B543 /* Common.framework in Embed Frameworks */,
@@ -67,7 +64,6 @@
 				E47A22E9610E0FC62304324A /* Pods_GamesApp.framework in Frameworks */,
 				D40810BA2D44ACA60035B543 /* GameDetail.framework in Frameworks */,
 				D40810B82D44ACA60035B543 /* Core.framework in Frameworks */,
-				D40810BC2D44ACA60035B543 /* GameFavorites.framework in Frameworks */,
 				D40810B62D44ACA60035B543 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,6 +403,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

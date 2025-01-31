@@ -10,8 +10,23 @@
 		6881A0E9815CB45E057A6387 /* Pods_Homepage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3E56EAA2872F5827ECFEC7 /* Pods_Homepage.framework */; };
 		D40811A12D44B9D50035B543 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D408119F2D44B9D50035B543 /* Common.framework */; };
 		D40812152D44BD430035B543 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40812142D44BD430035B543 /* Core.framework */; };
-		D40812342D44BE7B0035B543 /* GameFavorites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40812332D44BE7B0035B543 /* GameFavorites.framework */; };
+		D460E2302D4CF10E00990189 /* GameDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D460E22F2D4CF10E00990189 /* GameDetail.framework */; };
+		D460E2312D4CF10E00990189 /* GameDetail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D460E22F2D4CF10E00990189 /* GameDetail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D460E2322D4CF10E00990189 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D460E2312D4CF10E00990189 /* GameDetail.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0D3E56EAA2872F5827ECFEC7 /* Pods_Homepage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homepage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +40,7 @@
 		D40811A02D44B9D50035B543 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40812142D44BD430035B543 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40812332D44BE7B0035B543 /* GameFavorites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GameFavorites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D460E22F2D4CF10E00990189 /* GameDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GameDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75FB20AC8D923F77A378135 /* Pods-Homepage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homepage.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-Homepage/Pods-Homepage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +63,11 @@
 			path = Homepage;
 			sourceTree = "<group>";
 		};
+		D460E1872D4CECFE00990189 /* GameFavorites */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GameFavorites;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40812342D44BE7B0035B543 /* GameFavorites.framework in Frameworks */,
 				6881A0E9815CB45E057A6387 /* Pods_Homepage.framework in Frameworks */,
+				D460E2302D4CF10E00990189 /* GameDetail.framework in Frameworks */,
 				D40812152D44BD430035B543 /* Core.framework in Frameworks */,
 				D40811A12D44B9D50035B543 /* Common.framework in Frameworks */,
 			);
@@ -67,6 +88,7 @@
 		33D506A81F37416166C18CC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D460E22F2D4CF10E00990189 /* GameDetail.framework */,
 				D40812332D44BE7B0035B543 /* GameFavorites.framework */,
 				D40812142D44BD430035B543 /* Core.framework */,
 				D408119F2D44B9D50035B543 /* Common.framework */,
@@ -83,6 +105,7 @@
 		D408107D2D44A58E0035B543 = {
 			isa = PBXGroup;
 			children = (
+				D460E1872D4CECFE00990189 /* GameFavorites */,
 				D40810892D44A58E0035B543 /* Homepage */,
 				D40810882D44A58E0035B543 /* Products */,
 				F8DD0500A8B01B95EF8AEFEB /* Pods */,
@@ -130,6 +153,7 @@
 				D40810832D44A58E0035B543 /* Sources */,
 				D40810842D44A58E0035B543 /* Frameworks */,
 				D40810852D44A58E0035B543 /* Resources */,
+				D460E2322D4CF10E00990189 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +161,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				D40810892D44A58E0035B543 /* Homepage */,
+				D460E1872D4CECFE00990189 /* GameFavorites */,
 			);
 			name = Homepage;
 			productName = Homepage;

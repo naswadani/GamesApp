@@ -31,11 +31,6 @@ target 'GameDetail' do
 	pod 'Alamofire'
 end
 
-target 'GameFavorites' do
-  project 'Modules/GameFavorites/GameFavorites'
-	pod 'Swinject'
-end
-
 target 'Homepage' do
   project 'Modules/Homepage/Homepage'
 	pod 'Alamofire'
